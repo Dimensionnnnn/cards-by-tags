@@ -1,0 +1,13 @@
+.list-empty {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+  }
+}
