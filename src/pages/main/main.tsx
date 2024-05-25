@@ -27,7 +27,7 @@ export const Main: FC<MainProps> = ({ className }) => {
       const uniqueTags = getUniqueTags(data);
       context.setTags(uniqueTags);
     })();
-  });
+  }, []);
 
   return (
     <div className={cnRoot}>

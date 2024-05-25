@@ -7,5 +7,5 @@ export const CardsList = () => {
 
   const filteredCards = getCardsByUniqueTag(context.cards, context.currentTag);
 
-  return <Cards cards={filteredCards} />;
+  return <Cards cards={filteredCards} isLoading={context.isLoading} />;
 };

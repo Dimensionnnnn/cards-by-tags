@@ -12,6 +12,7 @@ export const Select = () => {
       className={cnRoot}
       tags={context.tags}
       currentTag={context.currentTag}
+      isLoading={context.isLoading}
     />
   );
 };
